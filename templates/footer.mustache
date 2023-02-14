@@ -126,8 +126,16 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-4 column-center">
+            <div class="col-md-4 column-center donotshow">
+                {{# output.supportemail }}
+                    <div class="supportemail">{{{ output.supportemail }}}</div>
+                {{/ output.supportemail }}
 
+                {{{ output.login_info }}}
+
+                {{{ output.standard_footer_html }}}
+
+                <div class="tool_usertours-resettourcontainer"></div>
             </div>
             <div class="col-md-4 column-right">
                 {{#enablemobilewebservice}}
