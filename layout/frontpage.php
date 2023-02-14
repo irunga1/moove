@@ -112,7 +112,8 @@ $templatecontext = [
     'hasregionmainsettingsmenu' => !empty($regionmainsettingsmenu),
     'overflow' => $overflow,
     'headercontent' => $headercontent,
-    'addblockbutton' => $addblockbutton
+    'addblockbutton' => $addblockbutton,
+    'entity'=>'Gobierno de Guatemala'
 ];
 
 $themesettings = new \theme_moove\util\settings();
